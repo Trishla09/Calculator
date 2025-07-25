@@ -1,0 +1,102 @@
+body{
+    background-color:rgb(20,20,20) ;
+    
+}
+#main{
+    height:500px;
+    width:350px;
+    background-color: rgb(31,31,31);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+
+}
+#photo #my{
+    height:75px;
+    width:75px;
+    border-radius: 50%;
+    position:absolute;
+    top:13%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#name h3{
+    position:absolute;
+    top:21%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: rgb(249,249,249);
+}
+#name h5{
+    position:absolute;
+    top:25%;
+    left:51%;
+    transform: translate(-50%,-50%);
+    color: rgb(180,204,88);
+   
+}
+#name p{
+    position:absolute;
+    top:34%;
+    left:51%;
+    transform: translate(-50%,-50%);
+    color: rgb(249,249,249);
+}
+.linkk{
+    text-decoration: none;
+    color:rgb(222,222,222);
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+#git ,#Face,#linkedin,#twitter,#insta{
+     position:absolute;
+     left:50%;
+     transform: translate(-50%,-50%);
+     background-color: rgb(51,51,51);
+     width: 300px;border-radius: 5px;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+#git{
+    
+    top:45%;
+    
+    height: 27px;
+    
+}
+#Face{
+    
+    top:55%;
+    left:50%;
+    
+    height: 28px;
+    
+}
+#linkedin{
+    
+    top:65%;
+    
+    height: 28px;
+    
+}
+#twitter{
+    
+    top:75.2%;
+    
+    height: 28px;
+    
+}
+#insta{
+    top:85.3%;  
+    height: 28px;
+    
+}
+
+#git:hover ,#Face:hover ,#linkedin:hover, #twitter:hover ,#insta:hover{
+    background-color: rgb(131, 159, 40);
+}

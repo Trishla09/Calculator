@@ -1,0 +1,93 @@
+
+body{
+    background-color: rgb(243,234,227);
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap:0px;
+    color:hsl(228, 12%, 48%);
+    
+}
+#photo img{
+    width:270px;
+    height:400px;
+    border-radius:8px 0px 0px 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    
+}
+#content{
+    width:270px;
+    height:400px;
+    background-color: rgb(255,255,255);
+    border-radius: 0px 8px 8px 0px;
+    padding: 5px 25px ;
+    box-sizing: border-box;
+}
+#rate{
+    display: flex;
+   
+}
+#atc{
+    height: 38px;
+    width: 100%;
+    background-color:rgb(61, 129, 104) ;
+    border-radius: 7px;
+    text-align: center;
+    /* margin-top:-8px;   */
+    padding:5px;  
+    color: white;
+    display: flex;               
+    justify-content: center;     
+    align-items: center;  
+     
+   
+}
+#head1{
+    margin-top:-6px;
+    line-height:30px;
+    color:hsl(212, 21%, 14%)
+}
+#para{
+    margin-top:-5px;
+    font-size: 17px;
+    line-height:24px;
+   
+}
+#amt{
+    margin-top:-21px;
+    color:rgb(61, 129, 104) ;
+
+}
+#delamt{
+    margin-top:12px;
+    margin-left:29px;
+}
+#atc:hover{
+     background-color:rgb(23, 75, 56) ;
+     cursor: pointer;
+}
+@media screen and  (max-width:500px){
+   #main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    gap:0px;
+    
+   }
+   #photo img{
+    content:url(images/image-product-mobile.jpg);
+    border-radius: 8px 8px 0px 0px;
+    
+   }
+   #content{
+    border-radius: 0px 0px 8px 8px;
+    
+   }
+    
+}
