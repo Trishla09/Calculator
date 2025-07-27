@@ -2,6 +2,7 @@
 A simple, elegant, and responsive calculator built using HTML, CSS, and JavaScript.
 This calculator handles basic arithmetic operations and is optimized for both desktop and mobile screens.
 
+
 ✅ Features
 🔢 Basic Operations: Supports addition +, subtraction -, multiplication *, division /, and modulus %
 
@@ -16,4 +17,7 @@ This calculator handles basic arithmetic operations and is optimized for both de
 🎨 Stylish UI: Clean dark theme with glowing effect buttons
 
 📱 Responsive Design: Fully functional and scaled for screen widths ≤ 400px (mobile-friendly)
+
+🚀 Live Demo
+👉 https://trishla09.github.io/Calculator/
 
